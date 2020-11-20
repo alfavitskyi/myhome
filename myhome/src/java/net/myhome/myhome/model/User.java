@@ -17,6 +17,7 @@ public class User {
     @Column(name = "password")
     private String password;
     @Transient
+
     transient private String confirmPassword;
     @ManyToMany
     @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"),
