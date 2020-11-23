@@ -4,6 +4,6 @@ package net.myhome.myhome.service;
  * Service for security
  */
 public interface SecurityService {
-    String findzLoggedUsername();
+    String findzLoggedInUsername();
     void autoLogin (String username, String password);
 }
